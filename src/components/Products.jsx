@@ -130,7 +130,7 @@ const Products = () => {
     },
   ];
   return (
-    <div className="bg-zinc-900">
+    <div className="bg-zinc-900 pt-24">
     {products.map((val,index)=><Product val={val}/>)}
       
     </div>
