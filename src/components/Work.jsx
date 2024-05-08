@@ -41,7 +41,7 @@ const Work = () => {
   ];
 
   return (
-    <div className="w-full bg-zinc-900">
+    <div className="w-full bg-zinc-900 ">
       <div className="relative max-w-screen-xl mx-auto text-center select-none pt-4">
         <h1 className="text-[40vw] leading-none font-medium">work</h1>
         <div className="absolute -top-3 w-full h-full">
@@ -60,7 +60,6 @@ const Work = () => {
         </div>
         <h1 className="text-zinc-400 text-lg">Web Design, Webflow Development, Creative Development</h1>
       </div>
-      
     </div>
   );
 };
