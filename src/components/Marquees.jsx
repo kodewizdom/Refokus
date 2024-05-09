@@ -28,7 +28,7 @@ const Marquees = () => {
     ],
   ];
   return (
-    <div className="bg-zinc-900 py-20 ">
+    <div className="bg-zinc-900 py-48 ">
     {images.map(item => <Marquee  imagesurls={item} />)}
       
     </div>
