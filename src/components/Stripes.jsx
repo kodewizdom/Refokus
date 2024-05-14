@@ -59,7 +59,7 @@ const Stripes = () => {
     }
   ];
   return (
-    <div className="flex bg-zinc-900 items-center pt-20 overflow-hidden ">
+    <div className="flex bg-zinc-900 items-center pt-20 overflow-hidden pb-24">
       {data.map((elem, index)=>(<Stripe val={elem}/>))}
     </div>
   );
